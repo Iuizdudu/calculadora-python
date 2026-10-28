@@ -22,10 +22,16 @@
 
 <br>
 
-<!-- Seleção de Idiomas com Bandeiras Animadas (Lado a Lado) -->
+
+<!-- Seleção de Idiomas -->
 <p align="center">
-  <a href="README.md" title="Português (Brasil)"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Animated-Flag-Brazil.gif?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original" alt="Brasil" height="18" width="34" align="center" /> <b>Português</b></a>&emsp;•&emsp;<a href="README.en.md" title="English"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4Ll4HysjVfE8PyUedIcqpt46KK_6BrCO2zvtVWtHVsvrxelX2CnmWRZvcdrF4AWTEZeO3s3IztgP1DHEZqpiDOsLf0AL4w2v04X0uWl52jRWj_huCnAPY1olddUzQZDL2OY4kplVW0_f6wnfLyUiKUHztvN_RGnTgk3XKIL0xhkvCIkLhUATE0mBlXeE/s1600-e90-rw/United_States_flag_with_coat_of_arms.gif" alt="English" height="18" width="28" align="center" /> <b>English</b></a>&emsp;•&emsp;<a href="README.es.md" title="Español"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ7gO4BLh6owtRBt1uDKeflkkGK649kjrZqMZdrtcE6_aWA-fM25mrgfpxcFTsTaR9LeCded7bVm_Ey0md1A3U9GhfxBM4mROzjxfND9ZLLzBMV0gbP8vUvEV7hO9yZagsTIXqgT6V4K0/s0-e90-rw/Flag_of_Spain.gif" alt="Español" height="18" width="28" align="center" /> <b>Español</b></a>
+  <a href="./README.md"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Animated-Flag-Brazil.gif?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original" alt="Brasil" width="38" height="18"></a>&nbsp;<a href="./README.md"><strong>Português</strong></a>
+  &nbsp; • &nbsp;
+  <a href="./README.en.md"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4Ll4HysjVfE8PyUedIcqpt46KK_6BrCO2zvtVWtHVsvrxelX2CnmWRZvcdrF4AWTEZeO3s3IztgP1DHEZqpiDOsLf0AL4w2v04X0uWl52jRWj_huCnAPY1olddUzQZDL2OY4kplVW0_f6wnfLyUiKUHztvN_RGnTgk3XKIL0xhkvCIkLhUATE0mBlXeE/s1600-e90-rw/United_States_flag_with_coat_of_arms.gif" alt="USA" width="30" height="18"></a>&nbsp;<a href="./README.en.md"><strong>English</strong></a>
+  &nbsp; • &nbsp;
+  <a href="./README.es.md"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ7gO4BLh6owtRBt1uDKeflkkGK649kjrZqMZdrtcE6_aWA-fM25mrgfpxcFTsTaR9LeCded7bVm_Ey0md1A3U9GhfxBM4mROzjxfND9ZLLzBMV0gbP8vUvEV7hO9yZagsTIXqgT6V4K0/s0-e90-rw/Flag_of_Spain.gif" alt="España" width="30" height="18"></a>&nbsp;<a href="./README.es.md"><strong>Español</strong></a>
 </p>
+
 
 <br>
 <div align="center">
