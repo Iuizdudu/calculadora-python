@@ -15,27 +15,19 @@
 <br>
 
 <div align="center">
-  <img src="https://files.catbox.moe/t240ys.jfif" alt="Calculadora Banner" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);" />
+  <a href="https://files.catbox.moe/t240ys.jfif" target="_blank" rel="noopener noreferrer">
+    <img src="https://i.ibb.co/rRtWdbc1/calculadora.jpg" alt="Calculadora Banner" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);" />
+  </a>
 </div>
 
 <br>
 
-<!-- Seleção de Idiomas com Bandeiras Animadas -->
-<div align="center">
+<!-- Seleção de Idiomas com Bandeiras Animadas (Lado a Lado) -->
+<p align="center">
+  <a href="README.md" title="Português (Brasil)"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Animated-Flag-Brazil.gif" alt="Brasil" height="18" width="34" align="center" /> <b>Português</b></a>&emsp;•&emsp;<a href="README.en.md" title="English"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4Ll4HysjVfE8PyUedIcqpt46KK_6BrCO2zvtVWtHVsvrxelX2CnmWRZvcdrF4AWTEZeO3s3IztgP1DHEZqpiDOsLf0AL4w2v04X0uWl52jRWj_huCnAPY1olddUzQZDL2OY4kplVW0_f6wnfLyUiKUHztvN_RGnTgk3XKIL0xhkvCIkLhUATE0mBlXeE/s1600-e90-rw/United_States_flag_with_coat_of_arms.gif" alt="English" height="18" width="28" align="center" /> <b>English</b></a>&emsp;•&emsp;<a href="README.es.md" title="Español"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ7gO4BLh6owtRBt1uDKeflkkGK649kjrZqMZdrtcE6_aWA-fM25mrgfpxcFTsTaR9LeCded7bVm_Ey0md1A3U9GhfxBM4mROzjxfND9ZLLzBMV0gbP8vUvEV7hO9yZagsTIXqgT6V4K0/s0-e90-rw/Flag_of_Spain.gif" alt="Español" height="18" width="28" align="center" /> <b>Español</b></a>
+</p>
 
-<a href="README.md" title="Português (Brasil)">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Animated-Flag-Brazil.gif" width="28" height="18" alt="Brasil" style="vertical-align: middle; border-radius: 2px;" /> <b>Português</b>
-</a>
-&ensp;&ensp;•&ensp;&ensp;
-<a href="README.en.md" title="English">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Animated-Flag-USA.gif" width="28" height="18" alt="USA" style="vertical-align: middle; border-radius: 2px;" /> <b>English</b>
-</a>
-&ensp;&ensp;•&ensp;&ensp;
-<a href="README.es.md" title="Español">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Animated-Flag-Spain.gif" width="28" height="18" alt="España" style="vertical-align: middle; border-radius: 2px;" /> <b>Español</b>
-</a>
-
-<br><br>
+<br>
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
 [![React 19](https://img.shields.io/badge/react-v19.0-61dafb.svg?style=flat-square&logo=react&logoColor=white)](https://react.dev)
@@ -116,24 +108,24 @@ O aplicativo oferece **5 modos operacionais completos**, acessíveis instantanea
 Através do botão de configurações (`⚙️`), você personaliza a aparência da calculadora entre **11 temas exclusivos**, estilizados fielmente com suas cores e identidades visuais:
 
 <div align="center">
-  <table><tr><td>
-
-[![Windows-Dark](https://placehold.co/135x32/202020/ffffff?text=Windows-Dark&font=Oswald)](#temas)
-[![Windows-White](https://placehold.co/135x32/f3f3f3/181818?text=Windows-White&font=Oswald)](#temas)
-[![Halloween](https://placehold.co/135x32/180a2b/ea580c?text=Halloween&font=Oswald)](#temas)
-[![Gatos-Patinhas](https://placehold.co/135x32/ffe4eb/881337?text=Gatos-Patinhas&font=Oswald)](#temas)
-[![Cyberpunk](https://placehold.co/135x32/08120d/10b981?text=Cyberpunk&font=Oswald)](#temas)
-[![Windows-95](https://placehold.co/135x32/c0c0c0/000080?text=Windows-95&font=Oswald)](#temas)
-[![Dracula](https://placehold.co/135x32/282a36/bd93f9?text=Dracula&font=Oswald)](#temas)
-
-  </td></tr><tr><td>
-
-[![Cafe-Caramelo](https://placehold.co/135x32/271d18/ddb892?text=Cafe-Caramelo&font=Oswald)](#temas)
-[![Galaxia](https://placehold.co/135x32/0d1329/38bdf8?text=Galaxia&font=Oswald)](#temas)
-[![Floresta](https://placehold.co/135x32/122419/10b981?text=Floresta&font=Oswald)](#temas)
-[![Sunset-Wave](https://placehold.co/135x32/230f3f/d946ef?text=Sunset-Wave&font=Oswald)](#temas)
-
-  </td></tr></table>
+<table>
+  <tr>
+    <td align="center" bgcolor="#202020"><a href="#temas"><font color="#ffffff"><b>&nbsp;&nbsp;Windows-Dark&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#f3f3f3"><a href="#temas"><font color="#181818"><b>&nbsp;&nbsp;Windows-White&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#180a2b"><a href="#temas"><font color="#ea580c"><b>&nbsp;&nbsp;Halloween&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#ffe4eb"><a href="#temas"><font color="#881337"><b>&nbsp;&nbsp;Gatos-Patinhas&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#08120d"><a href="#temas"><font color="#10b981"><b>&nbsp;&nbsp;Cyberpunk&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#c0c0c0"><a href="#temas"><font color="#000080"><b>&nbsp;&nbsp;Windows-95&nbsp;&nbsp;</b></font></a></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#282a36"><a href="#temas"><font color="#bd93f9"><b>&nbsp;&nbsp;Dracula&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#271d18"><a href="#temas"><font color="#ddb892"><b>&nbsp;&nbsp;Cafe-Caramelo&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#0d1329"><a href="#temas"><font color="#38bdf8"><b>&nbsp;&nbsp;Galaxia&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#122419"><a href="#temas"><font color="#4ade80"><b>&nbsp;&nbsp;Floresta&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#230f3f"><a href="#temas"><font color="#f43f5e"><b>&nbsp;&nbsp;Sunset-Wave&nbsp;&nbsp;</b></font></a></td>
+    <td align="center" bgcolor="#1e1e2e"><a href="#temas"><font color="#cdd6f4"><b>&nbsp;&nbsp;Personalizado&nbsp;&nbsp;</b></font></a></td>
+  </tr>
+</table>
 </div>
 
 > [!TIP]
