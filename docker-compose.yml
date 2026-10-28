@@ -1,0 +1,7 @@
+services:
+  calculator-app:
+    build: .
+    container_name: calculadora_python
+    ports:
+      - "8080:80"
+    restart: unless-stopped
