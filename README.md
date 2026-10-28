@@ -12,24 +12,36 @@
 
 </div>
 
-###### _<div align="right"><a id="top"></a><sub>// design by t2</sub></div>_
+<br>
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=420&q=80" alt="Calculadora Banner" style="width: 100%; max-height: 380px; object-fit: cover; border-radius: 12px; margin: 15px 0;" />
+  <img src="https://files.catbox.moe/t240ys.jfif" alt="Calculadora Banner" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);" />
 </div>
 
-<!-- Language selectors with real working file links -->
+<br>
+
+<!-- Seleção de Idiomas com Bandeiras Animadas -->
 <div align="center">
+
+<a href="README.md" title="Português (Brasil)">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Animated-Flag-Brazil.gif" width="28" height="18" alt="Brasil" style="vertical-align: middle; border-radius: 2px;" /> <b>Português</b>
+</a>
+&ensp;&ensp;•&ensp;&ensp;
+<a href="README.en.md" title="English">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Animated-Flag-USA.gif" width="28" height="18" alt="USA" style="vertical-align: middle; border-radius: 2px;" /> <b>English</b>
+</a>
+&ensp;&ensp;•&ensp;&ensp;
+<a href="README.es.md" title="Español">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Animated-Flag-Spain.gif" width="28" height="18" alt="España" style="vertical-align: middle; border-radius: 2px;" /> <b>Español</b>
+</a>
+
+<br><br>
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
 [![React 19](https://img.shields.io/badge/react-v19.0-61dafb.svg?style=flat-square&logo=react&logoColor=white)](https://react.dev)
 [![TypeScript 5](https://img.shields.io/badge/typescript-v5.0-3178c6.svg?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![TailwindCSS 4](https://img.shields.io/badge/tailwindcss-v4.0-38bdf8.svg?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-ffd343.svg?style=flat-square&logo=python&logoColor=blue)](https://www.python.org)
-
-[![pt-br](https://img.shields.io/badge/lang-pt--br-006400.svg?style=flat-square)](README.md)
-[![en](https://img.shields.io/badge/lang-en-blue.svg?style=flat-square)](README.en.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg?style=flat-square)](README.es.md)
 
 </div>
 
@@ -44,7 +56,9 @@
 <a href="#docker"><kbd> <br> Docker <br> </kbd></a>&ensp;&ensp;
 <a href="#vercel"><kbd> <br> Vercel <br> </kbd></a>
 
-</div><br>
+</div>
+
+<br><br>
 
 ---
 
@@ -54,16 +68,17 @@
 Uma simulação fiel e de alta precisão da **Calculadora Nativa do Windows 10/11**, desenvolvida com estética moderna Fluent Design, suporte completo a temas customizáveis e integração profunda com código e terminal **Python**.
 
 > [!NOTE]
-> Esta aplicação foi construída com foco em **ergonomia de uso e consistência de layout**: ao contrário de calculadoras comuns, aqui o teclado numérico de telefone (`7-8-9`, `4-5-6`, `1-2-3` e `+/- 0 ,`) **permanece exatamente na mesma posição** em todos os modos, garantindo memória muscular e digitação rápida.
+> **Nota:** Esta aplicação foi construída com foco em **ergonomia de uso e consistência de layout**: ao contrário de calculadoras comuns, aqui o teclado numérico de telefone (`7-8-9`, `4-5-6`, `1-2-3` e `+/- 0 ,`) **permanece exatamente na mesma posição** em todos os modos, garantindo memória muscular e digitação rápida.
 
 > [!TIP]
-> Suporte nativo a digitação física no teclado: utilize os números `0-9`, vírgula/ponto `.`, operadores `+ - * / ^`, tecla `Enter` ou `=` para calcular, `Backspace` para apagar dígitos e `Esc` ou `C` para limpar a tela.
+> **Dica:** Suporte nativo a digitação física no teclado: utilize os números `0-9`, vírgula/ponto `.`, operadores `+ - * / ^`, tecla `Enter` ou `=` para calcular, `Backspace` para apagar dígitos e `Esc` ou `C` para limpar a tela.
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
-  <br><sub>// design by t2</sub>
+  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
 </div>
+
+<br>
 
 ---
 
@@ -81,16 +96,17 @@ O aplicativo oferece **5 modos operacionais completos**, acessíveis instantanea
 | **Conversores** | 🔄 | Central com **10 categorias de unidades**: Moeda (Cotações reais), Volume, Comprimento, Peso/Massa, Temperatura, Energia, Área, Velocidade, Tempo e Potência. |
 
 > [!IMPORTANT]
-> No **Modo Programador**, a digitação de caracteres se adapta automaticamente à base selecionada: ao alternar para binário (BIN) apenas as teclas `0` e `1` ficam ativas; em hexadecimal (HEX), as teclas `A` até `F` são habilitadas no visor.
+> **Importante:** No **Modo Programador**, a digitação de caracteres se adapta automaticamente à base selecionada: ao alternar para binário (BIN) apenas as teclas `0` e `1` ficam ativas; em hexadecimal (HEX), as teclas `A` até `F` são habilitadas no visor.
 
 > [!WARNING]
-> Ao mudar a largura de palavra de **QWORD** (64 bits) para **BYTE** (8 bits), os valores que ultrapassarem o limite máximo serão truncados pela máscara de bits, replicando com exatidão o comportamento dos processadores.
+> **Aviso:** Ao mudar a largura de palavra de **QWORD** (64 bits) para **BYTE** (8 bits), os valores que ultrapassarem o limite máximo serão truncados pela máscara de bits, replicando com exatidão o comportamento dos processadores.
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
-  <br><sub>// design by t2</sub>
+  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
 </div>
+
+<br>
 
 ---
 
@@ -121,16 +137,17 @@ Através do botão de configurações (`⚙️`), você personaliza a aparência
 </div>
 
 > [!TIP]
-> **Adornos Especiais de Carcaça**:
+> **Dica - Adornos Especiais de Carcaça:**
 > - O tema **Halloween** renderiza um chapéu de bruxa vetorial SVG inclinado no canto superior esquerdo da moldura.
 > - O tema **Gatos** projeta duas orelhas felinas pontudas posicionadas no topo da carcaça, com interior rosado e som suave de miado ao teclar.
 > - Cada tema possui seu próprio perfil de áudio tátil sintetizado em tempo real via **Web Audio API** (você pode ativar ou desativar o som no botão de volume ou nas configurações).
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
-  <br><sub>// design by t2</sub>
+  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
 </div>
+
+<br>
 
 ---
 
@@ -154,16 +171,17 @@ npm run dev
 ```
 
 > [!IMPORTANT]
-> O projeto utiliza **Vite** e **Tailwind CSS v4**. O arquivo `.npmrc` já vem configurado com `legacy-peer-deps=true` para garantir que o processo de instalação ocorra de forma lisa e sem avisos de conflito de dependências.
+> **Importante:** O projeto utiliza **Vite** e **Tailwind CSS v4**. O arquivo `.npmrc` já vem configurado com `legacy-peer-deps=true` para garantir que o processo de instalação ocorra de forma lisa e sem avisos de conflito de dependências.
 
 > [!TIP]
-> Para gerar a versão otimizada de produção estática, basta executar `npm run build`. Os arquivos compilados serão gerados na pasta `/dist`.
+> **Dica:** Para gerar a versão otimizada de produção estática, basta executar `npm run build`. Os arquivos compilados serão gerados na pasta `/dist`.
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
-  <br><sub>// design by t2</sub>
+  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
 </div>
+
+<br>
 
 ---
 
@@ -187,13 +205,14 @@ python calculadora_cientifica.py --cli
 ```
 
 > [!TIP]
-> Você pode baixar o arquivo `.py` a qualquer momento clicando no botão **Exportar .py** no cabeçalho ou nas configurações da calculadora.
+> **Dica:** Você pode baixar o arquivo `.py` a qualquer momento clicando no botão **Exportar .py** no cabeçalho ou nas configurações da calculadora.
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
-  <br><sub>// design by t2</sub>
+  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
 </div>
+
+<br>
 
 ---
 
@@ -212,13 +231,14 @@ docker run -d -p 8080:80 --name calculadora_app calculadora-python
 ```
 
 > [!NOTE]
-> A aplicação estará disponível imediatamente em `http://localhost:8080`. O container foi otimizado com Alpine Linux, resultando em uma imagem leve e segura para ambientes de produção.
+> **Nota:** A aplicação estará disponível imediatamente em `http://localhost:8080`. O container foi otimizado com Alpine Linux, resultando em uma imagem leve e segura para ambientes de produção.
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
-  <br><sub>// design by t2</sub>
+  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
 </div>
+
+<br>
 
 ---
 
@@ -237,15 +257,16 @@ Para colocar a calculadora online na Vercel com 1 clique:
 4. Clique em **Deploy**.
 
 > [!CAUTION]
-> Certifique-se de que o arquivo `.npmrc` com `legacy-peer-deps=true` seja mantido no repositório. Ele previne conflitos de resolução de dependências no pipeline da Vercel.
-
----
+> **Atenção:** Certifique-se de que o arquivo `.npmrc` com `legacy-peer-deps=true` seja mantido no repositório. Ele previne conflitos de resolução de dependências no pipeline da Vercel.
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
-  <br><sub>// design by t2</sub>
+  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
 </div>
+
+<br>
+
+---
 
 <div align="center">
   <sub>Desenvolvido com foco em precisão matemática, ergonomia de uso e fidelidade nativa. Licenciado sob Apache 2.0.</sub>

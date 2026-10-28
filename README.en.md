@@ -12,23 +12,36 @@
 
 </div>
 
-###### _<div align="right"><a id="top"></a><sub>// design by t2</sub></div>_
+<br>
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=420&q=80" alt="Calculator Banner" style="width: 100%; max-height: 380px; object-fit: cover; border-radius: 12px; margin: 15px 0;" />
+  <img src="https://files.catbox.moe/t240ys.jfif" alt="Calculator Banner" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);" />
 </div>
 
+<br>
+
+<!-- Language Selection with Animated Flags -->
 <div align="center">
+
+<a href="README.md" title="Português (Brasil)">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Animated-Flag-Brazil.gif" width="28" height="18" alt="Brazil" style="vertical-align: middle; border-radius: 2px;" /> <b>Português</b>
+</a>
+&ensp;&ensp;•&ensp;&ensp;
+<a href="README.en.md" title="English">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Animated-Flag-USA.gif" width="28" height="18" alt="USA" style="vertical-align: middle; border-radius: 2px;" /> <b>English</b>
+</a>
+&ensp;&ensp;•&ensp;&ensp;
+<a href="README.es.md" title="Español">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Animated-Flag-Spain.gif" width="28" height="18" alt="Spain" style="vertical-align: middle; border-radius: 2px;" /> <b>Español</b>
+</a>
+
+<br><br>
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
 [![React 19](https://img.shields.io/badge/react-v19.0-61dafb.svg?style=flat-square&logo=react&logoColor=white)](https://react.dev)
 [![TypeScript 5](https://img.shields.io/badge/typescript-v5.0-3178c6.svg?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![TailwindCSS 4](https://img.shields.io/badge/tailwindcss-v4.0-38bdf8.svg?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-ffd343.svg?style=flat-square&logo=python&logoColor=blue)](https://www.python.org)
-
-[![pt-br](https://img.shields.io/badge/lang-pt--br-006400.svg?style=flat-square)](README.md)
-[![en](https://img.shields.io/badge/lang-en-blue.svg?style=flat-square)](README.en.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg?style=flat-square)](README.es.md)
 
 </div>
 
@@ -43,7 +56,9 @@
 <a href="#docker"><kbd> <br> Docker <br> </kbd></a>&ensp;&ensp;
 <a href="#vercel"><kbd> <br> Vercel <br> </kbd></a>
 
-</div><br>
+</div>
+
+<br><br>
 
 ---
 
@@ -53,16 +68,17 @@
 An ultra-realistic simulation of the **Native Windows 10/11 Calculator**, built with modern Fluent Design aesthetics, full custom theme support, and deep **Python** code & terminal integration.
 
 > [!NOTE]
-> Unlike typical web calculators that distort numeric layouts, this application preserves the classic 3x3 telephone keypad (`7-8-9`, `4-5-6`, `1-2-3`, and `+/- 0 ,`) **in the exact same position across all modes**.
+> **Note:** Unlike typical web calculators that distort numeric layouts, this application preserves the classic 3x3 telephone keypad (`7-8-9`, `4-5-6`, `1-2-3`, and `+/- 0 ,`) **in the exact same position across all modes**.
 
 > [!TIP]
-> Full physical keyboard support: use number keys `0-9`, comma/dot `.`, operators `+ - * / ^`, `Enter` or `=` to calculate, `Backspace` to delete, and `Esc` or `C` to clear.
+> **Tip:** Full physical keyboard support: use number keys `0-9`, comma/dot `.`, operators `+ - * / ^`, `Enter` or `=` to calculate, `Backspace` to delete, and `Esc` or `C` to clear.
 
 <div align="right">
   <br>
   <a href="#top"><kbd> <br> 🡅 Top <br> </kbd></a>
-  <br><sub>// design by t2</sub>
 </div>
+
+<br>
 
 ---
 
@@ -78,7 +94,17 @@ An ultra-realistic simulation of the **Native Windows 10/11 Calculator**, built 
 | **Converters** | 🔄 | Suite with **10 unit categories**: Currency (Real exchange rates), Volume, Length, Weight/Mass, Temperature, Energy, Area, Speed, Time, and Power. |
 
 > [!IMPORTANT]
-> In **Programmer Mode**, the keypad automatically adapts to the selected numeral base: in binary (BIN) only keys `0` and `1` are active; in hexadecimal (HEX), keys `A` through `F` are enabled.
+> **Important:** In **Programmer Mode**, the keypad automatically adapts to the selected numeral base: in binary (BIN) only keys `0` and `1` are active; in hexadecimal (HEX), keys `A` through `F` are enabled.
+
+> [!WARNING]
+> **Warning:** When changing word size from **QWORD** (64-bit) to **BYTE** (8-bit), values that exceed the maximum limit will be masked and truncated, faithfully mirroring CPU behavior.
+
+<div align="right">
+  <br>
+  <a href="#top"><kbd> <br> 🡅 Top <br> </kbd></a>
+</div>
+
+<br>
 
 ---
 
@@ -109,15 +135,17 @@ Click the settings gear (`⚙️`) to switch between **11 exclusive themes**, ea
 </div>
 
 > [!TIP]
-> **Chassis Ornaments**:
+> **Tip - Chassis Ornaments:**
 > - The **Halloween** theme features a tilted vector SVG witch hat on the top-left corner.
 > - The **Cats** theme features pointy cat ears at the top of the chassis with pink inner ears and a soft meow audio effect.
+> - Each theme has its own tactile sound profile synthesized via **Web Audio API** (you can mute/unmute in settings or the top bar).
 
 <div align="right">
   <br>
   <a href="#top"><kbd> <br> 🡅 Top <br> </kbd></a>
-  <br><sub>// design by t2</sub>
 </div>
+
+<br>
 
 ---
 
@@ -136,13 +164,88 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000` in your browser.
+> [!IMPORTANT]
+> **Important:** The project uses **Vite** and **Tailwind CSS v4**. The `.npmrc` file comes pre-configured with `legacy-peer-deps=true` for clean installations.
+
+> [!TIP]
+> **Tip:** To create an optimized production build, run `npm run build`. The static files will be generated in `/dist`.
 
 <div align="right">
   <br>
   <a href="#top"><kbd> <br> 🡅 Top <br> </kbd></a>
-  <br><sub>// design by t2</sub>
 </div>
+
+<br>
+
+---
+
+<a id="python"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=PYTHON+ENGINE" width="500"/>
+
+1. **Real-Time Translation**: Every calculated expression generates the Python equivalent on the display (`import math; ...`).
+2. **Interactive Terminal**: Built-in console to test expressions with formulas like Quadratic, Hypotenuse, Compound Interest, etc.
+3. **Standalone Script (`calculadora_cientifica.py`)**:
+   - Pure Python without external packages (`tkinter` and standard `math`).
+   - Run with native GUI or CLI:
+
+```bash
+# Run with Tkinter native GUI
+python calculadora_cientifica.py
+
+# Run in command line / CLI mode
+python calculadora_cientifica.py --cli
+```
+
+<div align="right">
+  <br>
+  <a href="#top"><kbd> <br> 🡅 Top <br> </kbd></a>
+</div>
+
+<br>
+
+---
+
+<a id="docker"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=DOCKER" width="500"/>
+
+```bash
+# Start container with Docker Compose
+docker compose up -d
+
+# Or build and run manually
+docker build -t calculator-python .
+docker run -d -p 8080:80 --name calculator_app calculator-python
+```
+
+> [!NOTE]
+> **Note:** The application will be accessible at `http://localhost:8080`.
+
+<div align="right">
+  <br>
+  <a href="#top"><kbd> <br> 🡅 Top <br> </kbd></a>
+</div>
+
+<br>
+
+---
+
+<a id="vercel"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=DEPLOY+VERCEL" width="500"/>
+
+1. Push your code to GitHub.
+2. Go to your [Vercel](https://vercel.com) dashboard and click **Add New Project**.
+3. Import the repository. `vercel.json` and `.npmrc` handle everything automatically.
+4. Click **Deploy**.
+
+> [!CAUTION]
+> **Caution:** Keep `.npmrc` with `legacy-peer-deps=true` in the repository to prevent dependency conflicts during Vercel's build pipeline.
+
+<div align="right">
+  <br>
+  <a href="#top"><kbd> <br> 🡅 Top <br> </kbd></a>
+</div>
+
+<br>
 
 ---
 
