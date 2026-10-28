@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora Científica Python & Multi-Temas",
+  "description": "Calculadora nativa ultra-realista com funções científicas completas, histórico de operações, múltiplos temas (Halloween, Gatos, Dark, White, Cyberpunk) e terminal/código Python.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
