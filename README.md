@@ -18,7 +18,7 @@
   <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=420&q=80" alt="Calculadora Banner" style="width: 100%; max-height: 380px; object-fit: cover; border-radius: 12px; margin: 15px 0;" />
 </div>
 
-<!-- Language and status badges -->
+<!-- Language selectors with real working file links -->
 <div align="center">
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
@@ -27,9 +27,9 @@
 [![TailwindCSS 4](https://img.shields.io/badge/tailwindcss-v4.0-38bdf8.svg?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-ffd343.svg?style=flat-square&logo=python&logoColor=blue)](https://www.python.org)
 
-[![pt-br](https://img.shields.io/badge/lang-pt--br-006400.svg?style=flat-square)](#)
-[![en](https://img.shields.io/badge/lang-en-blue.svg?style=flat-square)](#)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg?style=flat-square)](#)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-006400.svg?style=flat-square)](README.md)
+[![en](https://img.shields.io/badge/lang-en-blue.svg?style=flat-square)](README.en.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg?style=flat-square)](README.es.md)
 
 </div>
 
@@ -76,7 +76,7 @@ O aplicativo oferece **5 modos operacionais completos**, acessíveis instantanea
 | :--- | :---: | :--- |
 | **Padrão** | 🧮 | Aritmética básica com porcentagem (`%`), `CE`, `C`, `⌫`, `¹/x`, `x²`, `²√x`, `+/-` e barra de memória completa (`MC`, `MR`, `M+`, `M-`, `MS`, `M▾`). |
 | **Científica** | 🔬 | Funções trigonométricas (`sin`, `cos`, `tan`), inversas (`2nd`), hiperbólicas (`sinh`, `cosh`, `tanh`), `DEG`/`RAD`, `ln`, `log₁₀`, `log₂`, `xʸ`, `10ˣ`, `eˣ`, `n!`, `π` e `e`. |
-| **Programador** | 💻 | Visor quadruplo simultâneo em **HEX**, **DEC**, **OCT** e **BIN** (agrupados em nibbles de 4 bits), seleção **QWORD**, **DWORD**, **WORD**, **BYTE** e operações bit a bit (`<<`, `>>`, `NOT`, `CLR`). |
+| **Programador** | 💻 | Visor quádruplo simultâneo em **HEX**, **DEC**, **OCT** e **BIN** (agrupados em nibbles de 4 bits), seleção **QWORD**, **DWORD**, **WORD**, **BYTE** e operações bit a bit (`<<`, `>>`, `NOT`, `CLR`). |
 | **Cálculo de Data** | 📅 | 1) **Diferença entre duas datas** em anos, meses, semanas e total de dias.<br>2) **Adicionar ou subtrair períodos** com cálculo instantâneo da data resultante. |
 | **Conversores** | 🔄 | Central com **10 categorias de unidades**: Moeda (Cotações reais), Volume, Comprimento, Peso/Massa, Temperatura, Energia, Área, Velocidade, Tempo e Potência. |
 
@@ -97,38 +97,34 @@ O aplicativo oferece **5 modos operacionais completos**, acessíveis instantanea
 <a id="temas"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=TEMAS+PERSONALIZADOS" width="500"/>
 
-Através do botão de configurações (`⚙️`), você personaliza a aparência entre **11 temas desenhados sob medida**, com ícones 100% vetoriais profissionais e áudio tátil sintetizado via **Web Audio API**:
+Através do botão de configurações (`⚙️`), você personaliza a aparência da calculadora entre **11 temas exclusivos**, estilizados fielmente com suas cores e identidades visuais:
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center"><b>Escuro (Nativo)</b><br>Cinza grafite oficial Windows 10/11</td>
-      <td align="center"><b>Claro (White)</b><br>Porcelana e azul safira clean</td>
-      <td align="center"><b>Dia das Bruxas</b><br>Chapéu de bruxa no canto esquerdo</td>
-      <td align="center"><b>Gatos & Patinhas</b><br>Orelhas pontudas de gato no topo</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Cyberpunk Neon</b><br>Terminal Matrix verde & ciano</td>
-      <td align="center"><b>Retro Windows 95</b><br>Botões chanfrados 3D clássicos</td>
-      <td align="center"><b>Drácula Vampiro</b><br>Violeta gótico, carmesim e obsidian</td>
-      <td align="center"><b>Café & Caramelo</b><br>Mocca, espresso e tons quentes</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Galáxia Cósmica</b><br>Azul marinho estelar profundo</td>
-      <td align="center"><b>Floresta Esmeralda</b><br>Verde musgo nórdico e sálvia</td>
-      <td align="center"><b>Sunset Vaporwave</b><br>Ametista e coral crepuscular</td>
-      <td align="center"><b>Efeitos Sonoros</b><br>Cliques mecânicos e temas com áudio</td>
-    </tr>
-  </table>
+  <table><tr><td>
+
+[![Windows-Dark](https://placehold.co/135x32/202020/ffffff?text=Windows-Dark&font=Oswald)](#temas)
+[![Windows-White](https://placehold.co/135x32/f3f3f3/181818?text=Windows-White&font=Oswald)](#temas)
+[![Halloween](https://placehold.co/135x32/180a2b/ea580c?text=Halloween&font=Oswald)](#temas)
+[![Gatos-Patinhas](https://placehold.co/135x32/ffe4eb/881337?text=Gatos-Patinhas&font=Oswald)](#temas)
+[![Cyberpunk](https://placehold.co/135x32/08120d/10b981?text=Cyberpunk&font=Oswald)](#temas)
+[![Windows-95](https://placehold.co/135x32/c0c0c0/000080?text=Windows-95&font=Oswald)](#temas)
+[![Dracula](https://placehold.co/135x32/282a36/bd93f9?text=Dracula&font=Oswald)](#temas)
+
+  </td></tr><tr><td>
+
+[![Cafe-Caramelo](https://placehold.co/135x32/271d18/ddb892?text=Cafe-Caramelo&font=Oswald)](#temas)
+[![Galaxia](https://placehold.co/135x32/0d1329/38bdf8?text=Galaxia&font=Oswald)](#temas)
+[![Floresta](https://placehold.co/135x32/122419/10b981?text=Floresta&font=Oswald)](#temas)
+[![Sunset-Wave](https://placehold.co/135x32/230f3f/d946ef?text=Sunset-Wave&font=Oswald)](#temas)
+
+  </td></tr></table>
 </div>
 
 > [!TIP]
 > **Adornos Especiais de Carcaça**:
 > - O tema **Halloween** renderiza um chapéu de bruxa vetorial SVG inclinado no canto superior esquerdo da moldura.
 > - O tema **Gatos** projeta duas orelhas felinas pontudas posicionadas no topo da carcaça, com interior rosado e som suave de miado ao teclar.
-
-> [!NOTE]
-> Você pode ativar ou desativar o som das teclas a qualquer momento pelo botão de som na barra de navegação ou dentro do menu de configurações.
+> - Cada tema possui seu próprio perfil de áudio tátil sintetizado em tempo real via **Web Audio API** (você pode ativar ou desativar o som no botão de volume ou nas configurações).
 
 <div align="right">
   <br>
