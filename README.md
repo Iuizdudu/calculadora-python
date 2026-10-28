@@ -1,10 +1,10 @@
 <div align="center">
 
   <a href="https://github.com">
-    <img alt="Project Badge" src="https://img.shields.io/badge/CALCULADORA-CIENT%C3%8DFICA%20PYTHON-0078d4?style=for-the-badge&logo=python&logoColor=white&labelColor=1f1f1f">
+    <img alt="Calculadora Python" src="https://img.shields.io/badge/CALCULADORA-CIENT%C3%8DFICA%20PYTHON-0078d4?style=for-the-badge&logo=python&logoColor=white&labelColor=1f1f1f">
   </a>
   <a href="https://vercel.com">
-    <img alt="Vercel Ready" src="https://img.shields.io/badge/DEPLOY-VERCEL%20READY-000000?style=for-the-badge&logo=vercel&logoColor=white">
+    <img alt="Deploy Vercel" src="https://img.shields.io/badge/DEPLOY-VERCEL%20READY-000000?style=for-the-badge&logo=vercel&logoColor=white">
   </a>
   <a href="https://www.docker.com">
     <img alt="Docker Supported" src="https://img.shields.io/badge/CONTAINER-DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white">
@@ -12,13 +12,13 @@
 
 </div>
 
-###### _<div align="right"><a id="top"></a><sub>// fluent native simulation v2.0</sub></div>_
+###### _<div align="right"><a id="top"></a><sub>// design by t2</sub></div>_
 
 <div align="center">
   <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=420&q=80" alt="Calculadora Banner" style="width: 100%; max-height: 380px; object-fit: cover; border-radius: 12px; margin: 15px 0;" />
 </div>
 
-<!-- Badges & Translations -->
+<!-- Language and status badges -->
 <div align="center">
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
@@ -36,13 +36,13 @@
 <div align="center">
 <br>
 
-<a href="#sobre"><kbd> <br> Sobre o Projeto <br> </kbd></a>&ensp;&ensp;
-<a href="#modos"><kbd> <br> Modos de Uso <br> </kbd></a>&ensp;&ensp;
+<a href="#sobre"><kbd> <br> Sobre <br> </kbd></a>&ensp;&ensp;
+<a href="#modos"><kbd> <br> Modos <br> </kbd></a>&ensp;&ensp;
 <a href="#temas"><kbd> <br> 11 Temas <br> </kbd></a>&ensp;&ensp;
-<a href="#python"><kbd> <br> Motor Python <br> </kbd></a>&ensp;&ensp;
 <a href="#instalacao"><kbd> <br> Instalação <br> </kbd></a>&ensp;&ensp;
+<a href="#python"><kbd> <br> Python <br> </kbd></a>&ensp;&ensp;
 <a href="#docker"><kbd> <br> Docker <br> </kbd></a>&ensp;&ensp;
-<a href="#vercel"><kbd> <br> Deploy Vercel <br> </kbd></a>
+<a href="#vercel"><kbd> <br> Vercel <br> </kbd></a>
 
 </div><br>
 
@@ -51,19 +51,18 @@
 <a id="sobre"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=SOBRE+O+PROJETO" width="500"/>
 
-Uma simulação ultra-realista da **Calculadora Nativa do Windows 10/11** com Fluent Design, precisão matemática impecável e integração com **Python**.
+Uma simulação fiel e de alta precisão da **Calculadora Nativa do Windows 10/11**, desenvolvida com estética moderna Fluent Design, suporte completo a temas customizáveis e integração profunda com código e terminal **Python**.
 
-O projeto resolve o problema de calculadoras web que distorcem o teclado numérico: aqui, o bloco clássico de 3 colunas e 3 linhas (`7-8-9`, `4-5-6`, `1-2-3` com `+/- 0 ,` embaixo) **permanece rigorosamente no mesmo lugar** em todos os modos!
+> [!NOTE]
+> Esta aplicação foi construída com foco em **ergonomia de uso e consistência de layout**: ao contrário de calculadoras comuns, aqui o teclado numérico de telefone (`7-8-9`, `4-5-6`, `1-2-3` e `+/- 0 ,`) **permanece exatamente na mesma posição** em todos os modos, garantindo memória muscular e digitação rápida.
 
-### 🌟 Destaques Principais:
-- 🧮 **Layout Fiel**: Visual idêntico à calculadora nativa, com moldura de janela, minimizar/maximizar e menu hambúrguer `☰`.
-- ⌨️ **Teclado Físico Suportado**: Digite diretamente com as teclas numéricas, operadores (`+`, `-`, `*`, `/`, `^`), `Enter`, `=`, `Backspace` e `Esc`.
-- 🔊 **Web Audio API**: Cliques táteis e sons personalizados para cada tema com botão de mudo no topo.
-- 🚫 **Zero Emojis na Interface**: Ícones 100% vetoriais profissionais (*Lucide Icons*).
-- 🐍 **Ecossistema Python**: Tradução em tempo real para código Python, Terminal interativo e exportação de script `.py` standalone com interface Tkinter.
+> [!TIP]
+> Suporte nativo a digitação física no teclado: utilize os números `0-9`, vírgula/ponto `.`, operadores `+ - * / ^`, tecla `Enter` ou `=` para calcular, `Backspace` para apagar dígitos e `Esc` ou `C` para limpar a tela.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
+  <br>
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <br><sub>// design by t2</sub>
 </div>
 
 ---
@@ -71,18 +70,26 @@ O projeto resolve o problema de calculadoras web que distorcem o teclado numéri
 <a id="modos"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=MODOS+DE+OPERACAO" width="500"/>
 
-Acesse todos os modos através do menu lateral `☰` ou diretamente pelo cabeçalho:
+O aplicativo oferece **5 modos operacionais completos**, acessíveis instantaneamente através do menu lateral `☰` ou clicando no título da calculadora:
 
-| Modo | Descrição |
-| :--- | :--- |
-| **Padrão** | Aritmética essencial (`+`, `-`, `×`, `÷`, `%`, `CE`, `C`, `⌫`, `¹/x`, `x²`, `²√x`, `+/-`) com barra de memória completa (`MC`, `MR`, `M+`, `M-`, `MS`, `M▾`). |
-| **Científica** | Trigonometria (`sin`, `cos`, `tan`, `sin⁻¹`, `cos⁻¹`, `tan⁻¹`), hiperbólicas, `DEG`/`RAD`, `ln`, `log₁₀`, `log₂`, `xʸ`, `10ˣ`, `eˣ`, `n!`, `π`, `e` preservando o numpad 3×3. |
-| **Programador** | Conversão e exibição simultânea em tempo real entre **HEX**, **DEC**, **OCT** e **BIN** (com nibbles de 4 bits), seleção **QWORD/DWORD/WORD/BYTE** e operadores de bit (`<<`, `>>`, `NOT`, etc.). |
-| **Cálculo de Data** | 1) **Diferença entre datas**: anos, meses, semanas e total de dias decorridos.<br>2) **Adicionar/Subtrair dias**: cálculo da data exata resultante. |
-| **Conversores** | Central com **10 categorias de unidades**: Moeda, Volume, Comprimento, Peso e massa, Temperatura, Energia, Área, Velocidade, Tempo e Potência. |
+| Modo | Ícone | Principais Recursos |
+| :--- | :---: | :--- |
+| **Padrão** | 🧮 | Aritmética básica com porcentagem (`%`), `CE`, `C`, `⌫`, `¹/x`, `x²`, `²√x`, `+/-` e barra de memória completa (`MC`, `MR`, `M+`, `M-`, `MS`, `M▾`). |
+| **Científica** | 🔬 | Funções trigonométricas (`sin`, `cos`, `tan`), inversas (`2nd`), hiperbólicas (`sinh`, `cosh`, `tanh`), `DEG`/`RAD`, `ln`, `log₁₀`, `log₂`, `xʸ`, `10ˣ`, `eˣ`, `n!`, `π` e `e`. |
+| **Programador** | 💻 | Visor quadruplo simultâneo em **HEX**, **DEC**, **OCT** e **BIN** (agrupados em nibbles de 4 bits), seleção **QWORD**, **DWORD**, **WORD**, **BYTE** e operações bit a bit (`<<`, `>>`, `NOT`, `CLR`). |
+| **Cálculo de Data** | 📅 | 1) **Diferença entre duas datas** em anos, meses, semanas e total de dias.<br>2) **Adicionar ou subtrair períodos** com cálculo instantâneo da data resultante. |
+| **Conversores** | 🔄 | Central com **10 categorias de unidades**: Moeda (Cotações reais), Volume, Comprimento, Peso/Massa, Temperatura, Energia, Área, Velocidade, Tempo e Potência. |
+
+> [!IMPORTANT]
+> No **Modo Programador**, a digitação de caracteres se adapta automaticamente à base selecionada: ao alternar para binário (BIN) apenas as teclas `0` e `1` ficam ativas; em hexadecimal (HEX), as teclas `A` até `F` são habilitadas no visor.
+
+> [!WARNING]
+> Ao mudar a largura de palavra de **QWORD** (64 bits) para **BYTE** (8 bits), os valores que ultrapassarem o limite máximo serão truncados pela máscara de bits, replicando com exatidão o comportamento dos processadores.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
+  <br>
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <br><sub>// design by t2</sub>
 </div>
 
 ---
@@ -90,72 +97,51 @@ Acesse todos os modos através do menu lateral `☰` ou diretamente pelo cabeça
 <a id="temas"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=TEMAS+PERSONALIZADOS" width="500"/>
 
-Abra as configurações pelo ícone de engrenagem (`⚙️`) para alternar instantaneamente entre **11 temas exclusivos**:
+Através do botão de configurações (`⚙️`), você personaliza a aparência entre **11 temas desenhados sob medida**, com ícones 100% vetoriais profissionais e áudio tátil sintetizado via **Web Audio API**:
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>Escuro (Nativo)</b><br>Fiel ao Windows 10/11 escuro</td>
-      <td align="center"><b>Claro (White)</b><br>Minimalista cerâmica claro</td>
+      <td align="center"><b>Escuro (Nativo)</b><br>Cinza grafite oficial Windows 10/11</td>
+      <td align="center"><b>Claro (White)</b><br>Porcelana e azul safira clean</td>
       <td align="center"><b>Dia das Bruxas</b><br>Chapéu de bruxa no canto esquerdo</td>
       <td align="center"><b>Gatos & Patinhas</b><br>Orelhas pontudas de gato no topo</td>
     </tr>
     <tr>
       <td align="center"><b>Cyberpunk Neon</b><br>Terminal Matrix verde & ciano</td>
       <td align="center"><b>Retro Windows 95</b><br>Botões chanfrados 3D clássicos</td>
-      <td align="center"><b>Drácula Vampiro</b><br>Violeta gótico e carmesim</td>
-      <td align="center"><b>Café & Caramelo</b><br>Mocca e tons barista quentes</td>
+      <td align="center"><b>Drácula Vampiro</b><br>Violeta gótico, carmesim e obsidian</td>
+      <td align="center"><b>Café & Caramelo</b><br>Mocca, espresso e tons quentes</td>
     </tr>
     <tr>
-      <td align="center"><b>Galáxia Cósmica</b><br>Azul profundo astronômico</td>
+      <td align="center"><b>Galáxia Cósmica</b><br>Azul marinho estelar profundo</td>
       <td align="center"><b>Floresta Esmeralda</b><br>Verde musgo nórdico e sálvia</td>
       <td align="center"><b>Sunset Vaporwave</b><br>Ametista e coral crepuscular</td>
-      <td align="center"><b>Audio FX</b><br>Sons táteis sintetizados via Web Audio</td>
+      <td align="center"><b>Efeitos Sonoros</b><br>Cliques mecânicos e temas com áudio</td>
     </tr>
   </table>
 </div>
 
 > [!TIP]
-> **Adornos Especiais**: O tema de **Halloween** inclui um chapéu de bruxa vetorial SVG inclinado no topo esquerdo do chassi, e o tema de **Gatos** traz orelhinhas felinas pontudas no topo da carcaça com detalhes rosados!
+> **Adornos Especiais de Carcaça**:
+> - O tema **Halloween** renderiza um chapéu de bruxa vetorial SVG inclinado no canto superior esquerdo da moldura.
+> - O tema **Gatos** projeta duas orelhas felinas pontudas posicionadas no topo da carcaça, com interior rosado e som suave de miado ao teclar.
+
+> [!NOTE]
+> Você pode ativar ou desativar o som das teclas a qualquer momento pelo botão de som na barra de navegação ou dentro do menu de configurações.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
-</div>
-
----
-
-<a id="python"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=INTEGRACAO+PYTHON" width="500"/>
-
-O projeto integra a linguagem Python de três formas complementares:
-
-1. **Tradução em Tempo Real**: Cada operação realizada gera a expressão Python equivalente na tela (`import math; math.sin(math.radians(30)) + 2**8`).
-2. **Terminal Python Interativo**: Console no próprio app para testar fórmulas matemáticas, com biblioteca de presets inclusa (Fórmula de Bhaskara, Teorema de Pitágoras, Juros Compostos, etc.).
-3. **Download do Script Standalone (`calculadora_cientifica.py`)**:
-   - Um arquivo único em Python puro (sem bibliotecas externas necessárias).
-   - Possui interface gráfica nativa em **Tkinter** e modo terminal via linha de comando:
-   ```bash
-   # Rodar com Interface Gráfica Tkinter
-   python calculadora_cientifica.py
-
-   # Rodar em modo Terminal / CLI puro
-   python calculadora_cientifica.py --cli
-   ```
-
-<div align="right">
-  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
+  <br>
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <br><sub>// design by t2</sub>
 </div>
 
 ---
 
 <a id="instalacao"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=INSTALACAO+LOCAL" width="500"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=INSTALACAO" width="500"/>
 
-### Pré-requisitos
-- [Node.js](https://nodejs.org) versão 18 ou superior
-- [npm](https://www.npmjs.com) instalado
-
-### Passo a Passo
+Para executar a aplicação localmente no seu computador:
 
 ```bash
 # 1. Clone o repositório
@@ -171,68 +157,99 @@ npm install
 npm run dev
 ```
 
-Abra seu navegador em `http://localhost:3000` para utilizar a aplicação!
+> [!IMPORTANT]
+> O projeto utiliza **Vite** e **Tailwind CSS v4**. O arquivo `.npmrc` já vem configurado com `legacy-peer-deps=true` para garantir que o processo de instalação ocorra de forma lisa e sem avisos de conflito de dependências.
+
+> [!TIP]
+> Para gerar a versão otimizada de produção estática, basta executar `npm run build`. Os arquivos compilados serão gerados na pasta `/dist`.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
+  <br>
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <br><sub>// design by t2</sub>
+</div>
+
+---
+
+<a id="python"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=MOTOR+PYTHON" width="500"/>
+
+A calculadora conta com três pilares de integração com a linguagem Python:
+
+1. **Tradução em Tempo Real**: Toda conta calculada gera a instrução equivalente em Python no visor (`import math; ...`).
+2. **Terminal Python Interativo**: Console embutido para testar expressões complexas diretamente no navegador com funções matemáticas predefinidas (Fórmula de Bhaskara, Hipotenusa, Juros Compostos e Combinações).
+3. **Script Standalone para Download (`calculadora_cientifica.py`)**:
+   - Um arquivo Python puro, sem dependências externas (`tkinter` e `math` padrão).
+   - Suporta tanto interface gráfica quanto execução por linha de comando:
+
+```bash
+# Executar a calculadora com Interface Gráfica nativa (Tkinter)
+python calculadora_cientifica.py
+
+# Executar a calculadora em modo Terminal / CLI
+python calculadora_cientifica.py --cli
+```
+
+> [!TIP]
+> Você pode baixar o arquivo `.py` a qualquer momento clicando no botão **Exportar .py** no cabeçalho ou nas configurações da calculadora.
+
+<div align="right">
+  <br>
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <br><sub>// design by t2</sub>
 </div>
 
 ---
 
 <a id="docker"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=EXECUTAR+COM+DOCKER" width="500"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=DOCKER" width="500"/>
 
-Para rodar em qualquer ambiente conteinerizado com um único comando:
+O projeto possui suporte nativo a conteinerização com imagem multi-stage e servidor Nginx de alta performance:
 
 ```bash
-# Subir com Docker Compose
+# Subir o container usando Docker Compose
 docker compose up -d
 
-# Ou construir e rodar a imagem diretamente
+# Ou construir e rodar a imagem manualmente
 docker build -t calculadora-python .
-docker run -p 8080:80 calculadora-python
+docker run -d -p 8080:80 --name calculadora_app calculadora-python
 ```
 
-Acesse a aplicação em `http://localhost:8080`.
+> [!NOTE]
+> A aplicação estará disponível imediatamente em `http://localhost:8080`. O container foi otimizado com Alpine Linux, resultando em uma imagem leve e segura para ambientes de produção.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
+  <br>
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <br><sub>// design by t2</sub>
 </div>
 
 ---
 
 <a id="vercel"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=DEPLOY+NO+VERCEL" width="500"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=DEPLOY+VERCEL" width="500"/>
 
-O repositório já conta com `.npmrc` (`legacy-peer-deps=true`) e `vercel.json` pré-configurados para evitar qualquer erro de conflito de dependências.
+Para colocar a calculadora online na Vercel com 1 clique:
 
-1. Faça o fork ou envie este repositório para o seu **GitHub**.
-2. Acesse o [Vercel Dashboard](https://vercel.com/dashboard) e clique em **Add New Project**.
-3. Importe o repositório. As configurações serão detectadas automaticamente:
+1. Suba o código para o seu repositório no GitHub.
+2. Acesse seu painel no [Vercel](https://vercel.com) e clique em **Add New Project**.
+3. Selecione o repositório. As configurações do `vercel.json` e do `.npmrc` já ajustam tudo automaticamente:
    - **Framework Preset**: `Vite`
    - **Build Command**: `npm run build`
    - **Output Directory**: `dist`
-4. Clique em **Deploy**. Sua calculadora estará no ar em poucos segundos!
+   - **Install Command**: `npm install --legacy-peer-deps`
+4. Clique em **Deploy**.
+
+> [!CAUTION]
+> Certifique-se de que o arquivo `.npmrc` com `legacy-peer-deps=true` seja mantido no repositório. Ele previne conflitos de resolução de dependências no pipeline da Vercel.
 
 ---
-
-<a id="contribuindo"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=24&pause=1000&color=0078D4&vCenter=true&width=500&height=28&lines=CONTRIBUINDO" width="500"/>
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *Issue* ou enviar um *Pull Request*:
-
-1. Faça um Fork do projeto
-2. Crie uma branch para sua funcionalidade (`git checkout -b feature/novo-tema`)
-3. Faça commit das suas alterações (`git commit -m 'feat: adiciona novo tema'`)
-4. Envie para o branch (`git push origin feature/novo-tema`)
-5. Abra um Pull Request
 
 <div align="right">
   <br>
-  <a href="#top"><kbd> <br> 🡅 Topo <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <br><sub>// design by t2</sub>
 </div>
-
----
 
 <div align="center">
   <sub>Desenvolvido com foco em precisão matemática, ergonomia de uso e fidelidade nativa. Licenciado sob Apache 2.0.</sub>
